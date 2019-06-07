@@ -1,0 +1,6 @@
+direct call to product service:
+http://localhost:9092/products/MotoG5
+
+call to product service through API Gateway, Zuul: (running on port 8765)
+http://localhost:8765/{serviceID}/URI
+http://localhost:8765/product-service/products/MotoG5

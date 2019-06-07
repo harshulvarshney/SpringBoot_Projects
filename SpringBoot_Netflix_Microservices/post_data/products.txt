@@ -1,0 +1,2 @@
+POST: http://localhost:9092/products/
+{"name":"MotoG5","productCode":"1005","productFamily":"MOBILE","price":"195"}
